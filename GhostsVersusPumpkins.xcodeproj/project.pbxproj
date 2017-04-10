@@ -14,6 +14,13 @@
 		B527C35E1E91E3DD008EDE64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B527C35C1E91E3DD008EDE64 /* LaunchScreen.storyboard */; };
 		B527C3691E91E3DE008EDE64 /* GhostsVersusPumpkinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527C3681E91E3DE008EDE64 /* GhostsVersusPumpkinsTests.swift */; };
 		B527C3741E91E3DE008EDE64 /* GhostsVersusPumpkinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527C3731E91E3DE008EDE64 /* GhostsVersusPumpkinsUITests.swift */; };
+		B527C3841E91E4D8008EDE64 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = B527C3811E91E4D8008EDE64 /* board.png */; };
+		B527C3851E91E4D8008EDE64 /* pumpkin.png in Resources */ = {isa = PBXBuildFile; fileRef = B527C3821E91E4D8008EDE64 /* pumpkin.png */; };
+		B527C3861E91E4D8008EDE64 /* ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = B527C3831E91E4D8008EDE64 /* ghost.png */; };
+		B527C3881E91EAF1008EDE64 /* gravestone.png in Resources */ = {isa = PBXBuildFile; fileRef = B527C3871E91EAF1008EDE64 /* gravestone.png */; };
+		B527C38A1E91EC6D008EDE64 /* HalloweenScene.png in Resources */ = {isa = PBXBuildFile; fileRef = B527C3891E91EC6D008EDE64 /* HalloweenScene.png */; };
+		B527C38C1E91F36F008EDE64 /* ViewControllerPlayerSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527C38B1E91F36F008EDE64 /* ViewControllerPlayerSelect.swift */; };
+		B527C38E1E91FFD8008EDE64 /* ViewControllerGameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B527C38D1E91FFD8008EDE64 /* ViewControllerGameBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		B527C36F1E91E3DE008EDE64 /* GhostsVersusPumpkinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhostsVersusPumpkinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B527C3731E91E3DE008EDE64 /* GhostsVersusPumpkinsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostsVersusPumpkinsUITests.swift; sourceTree = "<group>"; };
 		B527C3751E91E3DE008EDE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B527C3811E91E4D8008EDE64 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		B527C3821E91E4D8008EDE64 /* pumpkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pumpkin.png; sourceTree = "<group>"; };
+		B527C3831E91E4D8008EDE64 /* ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost.png; sourceTree = "<group>"; };
+		B527C3871E91EAF1008EDE64 /* gravestone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gravestone.png; sourceTree = "<group>"; };
+		B527C3891E91EC6D008EDE64 /* HalloweenScene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HalloweenScene.png; sourceTree = "<group>"; };
+		B527C38B1E91F36F008EDE64 /* ViewControllerPlayerSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPlayerSelect.swift; sourceTree = "<group>"; };
+		B527C38D1E91FFD8008EDE64 /* ViewControllerGameBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerGameBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,13 @@
 				B527C3531E91E3DD008EDE64 /* AppDelegate.swift */,
 				B527C3551E91E3DD008EDE64 /* ViewController.swift */,
 				B527C3571E91E3DD008EDE64 /* Main.storyboard */,
+				B527C38D1E91FFD8008EDE64 /* ViewControllerGameBoard.swift */,
+				B527C38B1E91F36F008EDE64 /* ViewControllerPlayerSelect.swift */,
+				B527C3811E91E4D8008EDE64 /* board.png */,
+				B527C3871E91EAF1008EDE64 /* gravestone.png */,
+				B527C3891E91EC6D008EDE64 /* HalloweenScene.png */,
+				B527C3821E91E4D8008EDE64 /* pumpkin.png */,
+				B527C3831E91E4D8008EDE64 /* ghost.png */,
 				B527C35A1E91E3DD008EDE64 /* Assets.xcassets */,
 				B527C35C1E91E3DD008EDE64 /* LaunchScreen.storyboard */,
 				B527C35F1E91E3DD008EDE64 /* Info.plist */,
@@ -232,8 +253,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B527C3861E91E4D8008EDE64 /* ghost.png in Resources */,
 				B527C35E1E91E3DD008EDE64 /* LaunchScreen.storyboard in Resources */,
+				B527C38A1E91EC6D008EDE64 /* HalloweenScene.png in Resources */,
+				B527C3851E91E4D8008EDE64 /* pumpkin.png in Resources */,
 				B527C35B1E91E3DD008EDE64 /* Assets.xcassets in Resources */,
+				B527C3841E91E4D8008EDE64 /* board.png in Resources */,
+				B527C3881E91EAF1008EDE64 /* gravestone.png in Resources */,
 				B527C3591E91E3DD008EDE64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +285,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B527C38C1E91F36F008EDE64 /* ViewControllerPlayerSelect.swift in Sources */,
+				B527C38E1E91FFD8008EDE64 /* ViewControllerGameBoard.swift in Sources */,
 				B527C3561E91E3DD008EDE64 /* ViewController.swift in Sources */,
 				B527C3541E91E3DD008EDE64 /* AppDelegate.swift in Sources */,
 			);
@@ -503,6 +531,7 @@
 				B527C37A1E91E3DE008EDE64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B527C37B1E91E3DE008EDE64 /* Build configuration list for PBXNativeTarget "GhostsVersusPumpkinsTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +540,7 @@
 				B527C37D1E91E3DE008EDE64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B527C37E1E91E3DE008EDE64 /* Build configuration list for PBXNativeTarget "GhostsVersusPumpkinsUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +549,7 @@
 				B527C3801E91E3DE008EDE64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
